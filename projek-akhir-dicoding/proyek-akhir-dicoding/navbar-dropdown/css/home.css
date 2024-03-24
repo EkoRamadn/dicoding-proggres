@@ -1,0 +1,15 @@
+.home{
+    padding: 2rem 3%;
+}
+.home .title{
+    font-size: 3rem;
+    line-height: 1;
+}
+.home .subtitle{
+    font-size: 2.3rem;
+    line-height: .8;
+    margin-bottom: .5rem;
+}
+.home p{
+    font-size: 1.5;
+}

@@ -1,0 +1,41 @@
+main.active{
+    position: absolute;
+    top: 160px;
+}
+main.active.about{
+    top: 190px;
+    background-color: red;
+}
+
+header .menu-tggl.active{
+    border: 1px solid transparent;
+}
+header .menu-tggl.active div:first-child{
+    transform: translate(-50%,-50%) rotateZ(45deg);
+}
+header .menu-tggl.active div{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0); 
+}
+header .menu-tggl.active div:last-child{
+    transform: translate(-50%,-50%) rotateZ(-45deg);
+}
+header li a:is(:hover,.active){
+   
+    color: var(--clr-primary03);
+}
+
+@keyframes rainbow {
+    0%{
+       background-image:  red;
+    }
+    50%{
+        background:yellow;
+     }
+     100%{
+        background: green;
+     }
+}
